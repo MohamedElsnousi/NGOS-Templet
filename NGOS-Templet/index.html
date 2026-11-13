@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>نموذج خيري — منظمة خيرية</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body class="nonprofit-theme">
+
+  <!-- ========== TOP BAR ========== -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-item topbar-item--address">
+        <svg class="topbar-icon" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>الخرطوم، السودان</span>
+      </div>
+      <a href="mailto:info@example.org" class="topbar-item">
+        <svg class="topbar-icon" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+        <span>info@example.org</span>
+      </a>
+      <a href="tel:+249120059200" class="topbar-item">
+        <svg class="topbar-icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span dir="ltr">+249 12 005 9200</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- ========== MAIN HEADER ========== -->
+  <header class="main-header" id="siteHeader">
+    <div class="container navbar-inner">
+      <div class="nav-group">
+        <nav class="nav-menu" aria-label="القائمة الرئيسية">
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link active"><svg class="nav-icon" viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"/><path d="M5 10v10a1 1 0 001 1h4v-6h4v6h4a1 1 0 001-1V10"/></svg><span>الرئيسية</span></a></li>
+            <li><a href="#services" class="nav-link"><svg class="nav-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg><span>الخدمات</span></a></li>
+            <li><a href="#about" class="nav-link"><svg class="nav-icon" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg><span>من نحن</span></a></li>
+            <li><a href="#projects" class="nav-link"><svg class="nav-icon" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg><span>المشاريع</span></a></li>
+            <li><a href="#gallery" class="nav-link"><svg class="nav-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg><span>المعرض</span></a></li>
+            <li><a href="#contact" class="nav-link"><svg class="nav-icon" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg><span>تواصل معنا</span></a></li>
+          </ul>
+        </nav>
+        <div class="nav-actions">
+          <a href="#donate" class="btn-donate">
+            <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+            <span>تبرع الآن</span>
+          </a>
+          <button class="menu-toggle" id="menuToggle" aria-label="القائمة" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+      <a href="#" class="logo" aria-label="نموذج خيري">
+        <span class="logo-dark">نموذج</span><span class="logo-primary">خيري</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <div class="hero-slider" id="heroSlider">
+      <!-- سيتم توليدها من content/hero.json -->
+    </div>
+    <div class="hero-dots" id="heroDots" role="tablist"></div>
+  </section>
+
+  <!-- ========== PARTNERS ========== -->
+  <div class="partners-wrap">
+    <div class="partners-card">
+      <div class="partners-head">
+        <span class="partners-title">شركاؤنا في النجاح</span>
+      </div>
+      <div class="partners-track-wrap">
+        <div class="partners-track" id="partnersTrack">
+          <!-- سيتم توليدها -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== SERVICES ========== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head"><h2 class="section-title">خدماتنا</h2></div>
+      <div class="services-grid" id="servicesGrid"></div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-head"><h2 class="section-title">من نحن</h2></div>
+      <div class="about-box">
+        <div class="about-tabs" role="tablist">
+          <button class="about-tab active" data-tab="history"><svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg><span>النشأة والتأسيس</span></button>
+          <button class="about-tab" data-tab="director"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21v-2a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v2"/></svg><span>المدير التنفيذي</span></button>
+          <button class="about-tab" data-tab="employees"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span>الموظفون</span></button>
+          <button class="about-tab" data-tab="about-us"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg><span>نبذة عنا</span></button>
+        </div>
+        <div class="about-panels" id="aboutPanels">
+          <!-- سيتم توليدها -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-head"><h2 class="section-title">المشاريع</h2></div>
+      <div class="projects-slider" id="projectsSlider"></div>
+      <div class="projects-dots" id="projectsDots" role="tablist"></div>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY ========== -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-head"><h2 class="section-title">المعرض</h2></div>
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-head"><h2 class="section-title">تواصل معنا</h2></div>
+      <div class="contact-info-bar" id="contactInfoBar"></div>
+      <div class="contact-socials" id="contactSocials"></div>
+      <div class="contact-grid">
+        <div class="contact-map">
+          <iframe src="https://maps.google.com/maps?q=Khartoum,Sudan&t=&z=12&ie=UTF8&iwloc=&output=embed" title="خريطة الموقع" loading="lazy"></iframe>
+        </div>
+        <!-- نموذج Netlify -->
+        <form class="contact-form" id="contactForm" name="contact" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact">
+          <input type="text" name="name" placeholder="الاسم الكامل" required>
+          <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+          <textarea name="message" rows="6" placeholder="رسالتك" required></textarea>
+          <button type="submit" class="contact-submit">إرسال الرسالة</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item"><span class="stat-number">+12</span><span class="stat-label">سنة خبرة</span></div>
+          <div class="stat-item"><span class="stat-number">+50</span><span class="stat-label">مشروع منفذ</span></div>
+          <div class="stat-item"><span class="stat-number">+10K</span><span class="stat-label">مستفيد</span></div>
+          <div class="stat-item"><span class="stat-number">+30</span><span class="stat-label">شريك</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-main">
+      <div class="container footer-main-inner">
+        <a href="#" class="footer-logo"><span class="logo-dark">نموذج</span><span class="logo-primary">خيري</span></a>
+        <nav class="footer-links">
+          <a href="#home">الرئيسية</a><a href="#services">الخدمات</a><a href="#about">من نحن</a>
+          <a href="#projects">المشاريع</a><a href="#gallery">المعرض</a><a href="#contact">تواصل معنا</a>
+        </nav>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container"><p>© 2026 criscodesign — جميع الحقوق محفوظة.</p></div>
+    </div>
+  </footer>
+
+  <!-- ========== MOBILE DRAWER ========== -->
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <aside class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="drawer-head">
+      <a href="#" class="logo"><span class="logo-dark">نموذج</span><span class="logo-primary">خيري</span></a>
+      <button class="drawer-close" id="drawerClose" aria-label="إغلاق"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    </div>
+    <nav class="drawer-nav">
+      <a href="#home"><svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"/><path d="M5 10v10a1 1 0 001 1h4v-6h4v6h4a1 1 0 001-1V10"/></svg><span>الرئيسية</span></a>
+      <a href="#services"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg><span>الخدمات</span></a>
+      <a href="#about"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg><span>من نحن</span></a>
+      <a href="#projects"><svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg><span>المشاريع</span></a>
+      <a href="#gallery"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg><span>المعرض</span></a>
+      <a href="#contact"><svg viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg><span>تواصل معنا</span></a>
+    </nav>
+    <div class="drawer-footer"><a href="#contact" class="btn-donate"><span>تبرع الآن</span></a></div>
+  </aside>
+
+  <script src="main.js"></script>
+</body>
+</html>

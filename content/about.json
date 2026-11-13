@@ -2,9 +2,9 @@
   "history": { "title": "النشأة والتأسيس", "content": "تأسست المنظمة بهدف تقديم الدعم الإنساني والتنموي، وقد نمت عبر السنوات بفضل جهود المتطوعين وشركائنا لتصل خدماتها إلى العديد من المجتمعات المحتاجة.", "image": "uploads/about-history.jpg" },
   "director": { "name": "أحمد إبراهيم", "role": "المدير التنفيذي", "image": "uploads/director.jpg" },
   "employees": [
-    { "name": "سارة محمد", "role": "مديرة البرامج", "image": "uploads/emp1.jpg" },
+    { "name": "عثمان محمد", "role": "مدير البرامج", "image": "uploads/emp1.jpg" },
     { "name": "خالد علي", "role": "منسق المشاريع", "image": "uploads/emp2.jpg" },
-    { "name": "منى حسن", "role": "مسؤولة العلاقات", "image": "uploads/emp1.jpg" }
+    { "name": "جعفر حسن", "role": "مسؤول العلاقات", "image": "uploads/emp1.jpg" }
   ],
   "brief": { "title": "نموذج خيري", "content": "نؤمن بأن العمل الخيري المستدام يبدأ من فهم احتياجات المجتمع وبناء شراكات فاعلة، ونعمل على تقديم برامج شفافة ذات أثر ملموس.", "image": "uploads/about-history.jpg" }
 }

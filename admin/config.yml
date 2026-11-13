@@ -53,3 +53,16 @@ collections:
               - { label: "التصنيف", name: "type", widget: "string" }
               - { label: "الصورة", name: "image", widget: "image" }
               - { label: "المبلغ", name: "amount", widget: "string" }
+
+                - name: "partners"
+    label: "الشركاء"
+    files:
+      - name: "partners"
+        label: "شعارات الشركاء"
+        file: "content/partners.json"
+        fields:
+          - { label: "العنوان", name: "title", widget: "string" }
+          - label: "الشعارات"
+            name: "logos"
+            widget: "list"
+            field: { label: "الشعار", name: "image", widget: "image" }

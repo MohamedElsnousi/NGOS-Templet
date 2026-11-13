@@ -4,7 +4,7 @@
   "employees": [
     { "name": "سارة محمد", "role": "مديرة البرامج", "image": "uploads/emp1.jpg" },
     { "name": "خالد علي", "role": "منسق المشاريع", "image": "uploads/emp2.jpg" },
-    { "name": "منى حسن", "role": "مسؤولة العلاقات", "image": "uploads/about-history.jpg" }
+    { "name": "منى حسن", "role": "مسؤولة العلاقات", "image": "uploads/emp1.jpg" }
   ],
   "brief": { "title": "نموذج خيري", "content": "نؤمن بأن العمل الخيري المستدام يبدأ من فهم احتياجات المجتمع وبناء شراكات فاعلة، ونعمل على تقديم برامج شفافة ذات أثر ملموس.", "image": "uploads/emp2.jpg" }
 }
